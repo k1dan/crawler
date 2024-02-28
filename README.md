@@ -1,5 +1,8 @@
 # crawler
-Repository contains crawler for ebay.com. To run application define envs in .env file and run 
+Repository contains crawler for ebay.com. To run application define envs in .env file and run. </br>
+``CONDITIONS_TO_PARSE ``env specify conditions of products that should be parsed. </br>
+Several conditions can be specified separated by comma (example: "new, used"). </br>
+If empty string then no conditions are applied, by default env is empty string
 ``
     go run cmd/app/main.go
 ``
